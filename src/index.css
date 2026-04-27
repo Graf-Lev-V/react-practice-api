@@ -1,0 +1,7 @@
+.layout {
+    display: flex;
+    gap: 20px;
+}
+.layout p {
+    width: max-content;
+}
