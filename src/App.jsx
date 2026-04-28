@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <>
-    <Search search={search} setSearch={setSearch}></Search>
+    <Search search={search} setSearch={setSearch}/>
     <UserList users={filteredUsers} selectedUser={selectedUser} setSelectedUser={setSelectedUser}></UserList>
     </>
   )

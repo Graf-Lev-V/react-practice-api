@@ -1,8 +1,8 @@
-export default function UserItem({user, name, email, setSelectedUser}) {
+export default function UserItem({user, setSelectedUser}) {
     return (
         <>
-        <p onClick={() => setSelectedUser(user)}>{name}</p>
-        <p>{email}</p>
+        <p onClick={() => setSelectedUser(user)}>{user.name}</p>
+        <p>{user.email}</p>
         </>
     )
 }

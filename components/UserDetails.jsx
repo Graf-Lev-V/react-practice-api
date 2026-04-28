@@ -4,10 +4,10 @@ export default function UserDetails({user}) {
 
     return (
         <div>
-        {user && <p>{user.name}</p>}
-        {user && <p>{user.email}</p>}
-        {user && <p>{user.phone}</p>}
-        {user && <p>{user.website}</p>}
+        <p>{user.name}</p>
+        <p>{user.email}</p>
+        <p>{user.phone}</p>
+        <p>{user.website}</p>
         </div>
     )
 }
